@@ -209,3 +209,73 @@ td:first-child{
     font-weight: bold;
     background: #bde1ff;
 }
+
+/* contact */
+
+.contact_first_heading{
+    color: #9ed034;
+    font-weight: 900;
+}
+
+span {
+    margin-top: 5px;
+}
+
+.phone span:first-child{
+    font-weight: bold;
+}
+
+.email span:first-child{
+    font-weight: bold;
+}
+
+legend {
+    color: #4977d1;
+    font-weight: 900;
+}
+
+label{
+    display:block;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+}
+
+.radios{
+    padding: 2px;
+}
+.radios label {
+    display: inline-block;
+}
+
+.selectmenu {
+    padding: 2px;
+}
+
+.selectmenu label {
+    display: inline-block;
+}
+input{
+    width: 300px;
+}
+input[type="radio"]{
+    width: 25px;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+}
+.button {
+    padding-left: 0;
+}
+
+
+.button input[type="submit"]{
+    margin: 20px 0 10px 0;
+    width: 120px;
+    height: 30px;
+    color:white;
+    font-weight: bold;
+    margin-left: 180px;
+    background-color: #125688;
+}
