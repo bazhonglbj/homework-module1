@@ -284,3 +284,42 @@ textarea{
     margin-left: 180px;
     background-color: #125688;
 }
+
+/* cliffs */
+#cliffs .second-header{
+    width: 80%;
+    margin: 0 auto;
+}
+#cliffs .paragraph{
+    width: 80%;
+    margin: 0 auto;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center; 
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.image-item {
+    flex-basis: calc(50% - 10px);  
+    margin: 10px 5px;  
+    text-align: center;  
+}
+
+.image-item img {
+    max-width: 100%;  
+    height: auto;    
+}
+
+.image-item figcaption {
+    background: #852b1b;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
