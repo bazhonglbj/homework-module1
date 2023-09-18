@@ -118,11 +118,13 @@
             else {
                 ampm = "AM";
             }
-            var time = hr + ":" + min + ":" + sec + ":" + ampm;
+            var timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            var timeZoneSuffix = (timeZone === "America/Los_Angeles") ? " PT" : ""; // Adjust this based on how specific you want the check to be
+
+            var time = hr + ":" + min + ":" + sec + " " + ampm + timeZoneSuffix;
             document.getElementById("clock").innerText = time;
             setInterval(currentTime,1000)
         }
-
         currentTime();
     </script>
 </body>
