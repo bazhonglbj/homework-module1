@@ -79,6 +79,7 @@ header{
 #home #container .main-container {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 #home #container .main-container h3{
