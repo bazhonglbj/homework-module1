@@ -324,11 +324,27 @@ label{
 .selectmenu label {
     display: inline-block;
 }
+
+.randomcode{
+    margin: 5px 20px;
+    width:200px;
+    display: inline-flex;
+}
+
+.randomcode p{
+    background-color: #888;
+    width: 80px;
+    margin-left: 20px;
+}
+
 input{
     width: 300px;
 }
 input[type="radio"]{
     width: 25px;
+}
+input [name = "randomcode"]{
+    width:20px;
 }
 
 textarea{
