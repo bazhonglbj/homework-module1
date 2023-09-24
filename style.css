@@ -366,6 +366,12 @@ textarea{
     /*background-color: #125688;*/
 }
 
+.button input[type="submit"]:enabled {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
 /* cliffs */
 #cliffs .second-header{
     width: 80%;

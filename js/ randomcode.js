@@ -8,11 +8,15 @@ function generateCodes(){
     }
     return code
 }
+var codeText = document.getElementById("codes")
+codeText.textContent = generateCodes();
 
-document.getElementById("codes").innerHTML = generateCodes();
-
-function disableButtion (){
-    document.getElementById("submit").disable = true;
-}
-
-disableButtion();
+document.getElementsByName('randomcode').addEventListener('input', function() {
+    const submitButton = document.getElementById('submitButton');
+    console.log(submitButton);
+    if (this.value === codeText.textContent) {
+        submitButton.disabled = false;
+    } else {
+        submitButton.disabled = true;
+    }
+});
