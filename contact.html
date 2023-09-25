@@ -62,8 +62,13 @@ the Cliffs, Hours of Operations, Facilities or questions about this site using o
     
     <div class="radios">
         <label>How should we contact you?</label>  
-        <input type="radio" name="contact" value="email" checked>Email 
-        <input type="radio" name="contact" value="phone">Phone
+        <select id="contactMethod">
+            <option value="selectone" checked>Select one</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+        </select>
+        <p id="contactNotice" style="display: none;">Enter Your Info</p>
+        <input type="text" id="contactInput" style="display: none">
     </div>
 
     <div class="selectmenu">
@@ -114,6 +119,7 @@ the Cliffs, Hours of Operations, Facilities or questions about this site using o
     <!--end container-->
     <script src="js/digclock.js"></script>
     <script src="js/site_script.js"></script>
-    <script src="js/ randomcode.js"></script>
+    <script src="js/randomcode.js"></script>
+    <script src="js/contact_method.js"></script>
 </body>
 </html>
