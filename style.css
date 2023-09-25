@@ -327,14 +327,21 @@ label{
 
 .randomcode{
     margin: 5px 20px;
-    width:200px;
-    display: inline-flex;
+    width:300px;
+    margin-left: 105px;
+}
+
+.randomcode input {
+    width: 100px;
+    height: 20px;
 }
 
 .randomcode p{
     background-color: #888;
-    width: 80px;
+    width: 90px;
+    height: 20px;
     margin-left: 20px;
+    display: inline-block;
 }
 
 input{
@@ -351,22 +358,21 @@ textarea{
     width: 300px;
     height: 200px;
 }
-.button {
+.contact_button {
     padding-left: 0;
 }
 
-
-.button input[type="submit"]{
+.contact_button input[type="submit"]{
     margin: 20px 0 10px 0;
     width: 120px;
     height: 30px;
     color:white;
     font-weight: bold;
-    margin-left: 180px;
+    margin-left: 207px;
     /*background-color: #125688;*/
 }
 
-.button input[type="submit"]:enabled {
+.contact_button input[type="submit"]:enabled {
     background-color: blue;
     cursor: pointer;
     color: white;
