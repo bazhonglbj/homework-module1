@@ -416,3 +416,11 @@ textarea{
     font-weight: bold;
     padding-top: 1em;
 }
+
+.highlighted {
+    background-color: #FFD700; /* Example color for highlighting */
+}
+
+.selectable {
+    cursor: pointer;
+}
