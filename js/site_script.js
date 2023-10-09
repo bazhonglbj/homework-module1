@@ -8,8 +8,8 @@ var partners = [
 ];
 
 var htmlContent = partners.map(function(partner) {
-    return `<li class="partner">
-                <img src="${partner.src}" alt="${partner.alt}">
+    return `<li class="partner col-12 col-sm-6 col-md-4 col-lg-1">
+                <img src="${partner.src}" alt="${partner.alt}" class="img-fluid">
             </li>`;
 }).join('');
 
