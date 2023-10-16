@@ -77,13 +77,13 @@ header{
 }
 
 /* Main */
-#home #container .main-container {
+#home #self-container .main-container {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 100px;
 }
 
-#home #container .main-container h3{
+#home #self-container .main-container h3{
     font-weight: bolder;
     font-size: 20px;
 }
@@ -196,12 +196,12 @@ footer #nondisclaimer .social .fa-instagram{
 }
 
 /* Activities */
-#activities #container main{
+#activities #self-container main{
     width: 80%;
     margin: 0 auto;
 }
 
-#activities #container main h1{
+#activities #self-container main h1{
     color: #9ed034;
 }
 
@@ -409,13 +409,9 @@ textarea{
     height: auto;    
 }
 
-.image-item figcaption {
-    background: #852b1b;
-    height: 40px;
-    color: #fff;
-    font-size: 1.3em;
-    font-weight: bold;
-    padding-top: 1em;
+.figure-caption-custom {
+    background-color: brown;
+    color: white;
 }
 
 .highlighted {
